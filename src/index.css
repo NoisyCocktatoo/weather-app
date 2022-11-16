@@ -9,7 +9,7 @@
   }
   
   .app {
-    background-image: url(./assets/bg-2.jpg);
+    background: linear-gradient(to right, rgba(82, 157, 227, 0.8), rgba(33, 200, 200, 0.8));
     background-size: cover;
     background-position: bottom;
     transition: 0.4 ease;
@@ -17,8 +17,7 @@
   }
   
   .app.warm {
-    background-image: url(./assets/bg-1.jpg);
-    
+    background: linear-gradient(to right, rgba(188, 87, 64, 0.8), rgba(147, 70, 49, 0.8));
   }
   
   main {
